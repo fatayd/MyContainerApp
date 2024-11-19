@@ -1,0 +1,12 @@
+[
+    {
+      "name": "slash",
+      "dmg": 1,
+      "category": "Damage"
+    },
+    {
+      "name": "heal",
+      "dmg": 2,
+      "category": "Heal"
+    }
+  ]

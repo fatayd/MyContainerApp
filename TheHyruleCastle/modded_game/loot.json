@@ -1,0 +1,4 @@
+[{
+    "Consumable":[{"name": "healing potion", "effect": [["hp","20"]], "type": "potion"}, {"name": "Mana potion", "effect": [["mp","20"]], "type": "potion"}],
+    "Equipement":[{"name": "short sword", "effect": [["str","5"]], "roleRequirement": "all", "type": "weapon"}, {"name": "dagger", "effect": [["luck","10"]], "roleRequirement": "all", "type": "weapon"}, {"name": "Wood Shield", "effect": [["def","20"]], "roleRequirement": "all", "type": "shield"}]
+}]

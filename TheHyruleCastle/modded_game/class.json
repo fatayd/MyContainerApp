@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Fighter",
+        "bonus": ["str", "hpMax"],
+        "specialMove":{
+            "name": "second wind",
+            "dmg": 1,
+            "category": "Heal",
+            "MpCost": 0,
+            "Type": "physical",
+            "effect": []
+            }
+    },
+    {
+        "name": "Mage",
+        "bonus": ["int", "mpMax"],
+        "specialMove":{
+            "name": "fire column",
+            "dmg": 5,
+            "category": "spell",
+            "MpCost": 30,
+            "Type": "magic",
+            "effect": []
+            }
+    },
+    {
+        "name": "assassin",
+        "bonus": ["luck", "spd"],
+        "specialMove":{
+            "name": "death mark",
+            "dmg": 0,
+            "category": "debuff",
+            "MpCost": 20,
+            "Type": "physical",
+            "effect": ["def", "-20"]
+            } 
+    }
+]
